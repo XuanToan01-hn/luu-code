@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p><a href="SPro?service =listProduct">This is list product</a></p>
+        <p><a href="insertProduct.html">Insert product here</a></p>
+        <!--        <p><a href="SPro?service =deleteProduct7pID=">Delete</a></p>-->
+        <form action="SPro" method="post">
+            User name : <input type="text" name="userID" required="" /><br/>
+            Password       : <input type="password" name="password" required="" /><br/>
+            <input type="submit" name = "submit" value="Login">
+            <input type="reset" value="Reset">
+        </form>
+
+        
+        
+
+        <p><a href="ServletCategory?service =listCategory">This is list product</a></p>
+        <p><a href="insertCategory.html">Insert product here</a></p>
+<!--         <p><a href="ServletCategory?service =deleteCategory&cID=">Delete</a></p>-->
+
+<!--        <form action="ServletCategory" method="get">
+            <p>Search by name : </p>
+            <input type="text" name="categoryName" required="" /><br/>
+            <input type="submit" name = "submit" value="Search">
+            <input type="reset" value="Reset">
+            <input type="hidden" name="service" value="listCategory">
+        </form>-->
+
+         <p><a href="ServletCategory?service =deleteCategory&cID=">Delete</a></p>
+
+
+
+
+</html>
