@@ -1,0 +1,106 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"], input[type="reset"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #007bff; /* Màu xanh dương */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #0056b3; /* Màu xanh dương đậm */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+            th {
+                background-color: #28a745;
+                color: white;
+            }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+a {
+    color: #007bff; /* Màu xanh dương */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.total {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions a {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Màu xanh dương */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: #0056b3; /* Màu xanh dương đậm */
+}
+
+.confirm-purchase {
+    background-color: #4CAF50; /* Màu xanh lá */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.confirm-purchase:hover {
+    background-color: #45a049; /* Màu xanh lá đậm hơn khi hover */
+}
+
